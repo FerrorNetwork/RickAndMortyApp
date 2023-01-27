@@ -9,7 +9,7 @@
 import Foundation
 
 final class RMRequest {
-    private struct Constants {
+    struct Constants {
         static let baseUrl = "https://rickandmortyapi.com/api"
     }
     
@@ -54,4 +54,8 @@ final class RMRequest {
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
     }
+}
+
+extension RMRequest {
+    static let listCharactersRequest = RMRequest(endpoint: .character)
 }
