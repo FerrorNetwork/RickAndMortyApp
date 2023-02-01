@@ -36,6 +36,7 @@
 		1842999C29866F0900A23DFF /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842999B29866F0900A23DFF /* RMCharacterDetailView.swift */; };
 		1842999E29866F2D00A23DFF /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842999D29866F2D00A23DFF /* RMCharacterDetailViewViewModel.swift */; };
 		184299A02986A06C00A23DFF /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842999F2986A06C00A23DFF /* RMFooterLoadingCollectionReusableView.swift */; };
+		184299A2298A472900A23DFF /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184299A1298A472900A23DFF /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		1842999B29866F0900A23DFF /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		1842999D29866F2D00A23DFF /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		1842999F2986A06C00A23DFF /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		184299A1298A472900A23DFF /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		1842996B298154C400A23DFF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				184299A1298A472900A23DFF /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				1842999729842A7500A23DFF /* RMCharacterViewCellViewModel.swift in Sources */,
 				1842999E29866F2D00A23DFF /* RMCharacterDetailViewViewModel.swift in Sources */,
+				184299A2298A472900A23DFF /* RMImageLoader.swift in Sources */,
 				184299832983C19200A23DFF /* RMOrigin.swift in Sources */,
 				184299852983C22300A23DFF /* RMSingleLocation.swift in Sources */,
 				18429991298414F000A23DFF /* CharacterListView.swift in Sources */,
