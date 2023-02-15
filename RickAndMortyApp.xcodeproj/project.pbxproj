@@ -43,6 +43,7 @@
 		1850DC9229978B7500E54A0B /* RMCharacterPhotoCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DC9129978B7500E54A0B /* RMCharacterPhotoCollectionViewCellViewModel.swift */; };
 		1850DC9429978B8500E54A0B /* RMCharacterInfoCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DC9329978B8500E54A0B /* RMCharacterInfoCollectionViewCellViewModel.swift */; };
 		1850DC9629978B9100E54A0B /* RMCharacterEpisodeCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DC9529978B9100E54A0B /* RMCharacterEpisodeCollectionViewCellViewModel.swift */; };
+		18DD3C02299CE7C9001F0E48 /* RMEpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD3C01299CE7C9001F0E48 /* RMEpisodeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		1850DC9129978B7500E54A0B /* RMCharacterPhotoCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterPhotoCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		1850DC9329978B8500E54A0B /* RMCharacterInfoCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterInfoCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		1850DC9529978B9100E54A0B /* RMCharacterEpisodeCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterEpisodeCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		18DD3C01299CE7C9001F0E48 /* RMEpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				1842999929866E8D00A23DFF /* RMCharacterDetailViewController.swift */,
+				18DD3C01299CE7C9001F0E48 /* RMEpisodeDetailViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				184299932984192E00A23DFF /* Extensions.swift in Sources */,
 				1842996E2981553900A23DFF /* RMLocation.swift in Sources */,
 				1842998D2983D7EF00A23DFF /* RMGetCharacters.swift in Sources */,
+				18DD3C02299CE7C9001F0E48 /* RMEpisodeDetailViewController.swift in Sources */,
 				1842998129815EDD00A23DFF /* RMEndpoint.swift in Sources */,
 				184299702981554800A23DFF /* RMCharacter.swift in Sources */,
 				1842997F29815E0800A23DFF /* RMRequest.swift in Sources */,
